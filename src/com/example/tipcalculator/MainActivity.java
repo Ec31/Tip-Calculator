@@ -205,6 +205,16 @@ public class MainActivity extends Activity {
         
         TextView tvTotalPerPerson = (TextView) findViewById(R.id.tvTotalPerPerson);
         tvTotalPerPerson.setTypeface(face); 
+        
+        TextView billTotalLabel = (TextView) findViewById(R.id.billTotalLabel);
+        billTotalLabel.setTypeface(face); 
+        
+        
+        Typeface pacificoFace = Typeface.createFromAsset(getAssets(), "fonts/Pacifico.ttf");
+        TextView customTipLabel = (TextView) findViewById(R.id.customTipLabel);
+        customTipLabel.setTypeface(pacificoFace); 
+        
+       
 
     }
     

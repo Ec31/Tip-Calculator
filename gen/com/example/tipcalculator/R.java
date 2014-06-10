@@ -14,26 +14,28 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int container2=0x7f060001;
-        public static final int container3=0x7f06000c;
-        public static final int etCustomTip=0x7f060008;
-        public static final int etTotalAmt=0x7f060000;
-        public static final int fifteenPercent=0x7f060005;
-        public static final int numPeopleLabel=0x7f060009;
-        public static final int orLabel=0x7f060007;
-        public static final int rgTip=0x7f060003;
-        public static final int sbNumPeople=0x7f06000b;
-        public static final int tenPercent=0x7f060004;
-        public static final int tipLabel=0x7f060002;
-        public static final int tipTotalLabel=0x7f06000d;
-        public static final int totalLabel=0x7f06000f;
-        public static final int tvNumPeople=0x7f06000a;
-        public static final int tvTotalAmount=0x7f060010;
-        public static final int tvTotalPerPerson=0x7f060011;
-        public static final int tvTotalPerPersonAmt=0x7f060012;
-        public static final int tvTotalTip=0x7f06000e;
-        public static final int twentyPercent=0x7f060006;
-        public static final int venmo_wv=0x7f060013;
+        public static final int billTotalLabel=0x7f060000;
+        public static final int container2=0x7f060002;
+        public static final int container3=0x7f06000e;
+        public static final int customTipLabel=0x7f06000d;
+        public static final int etCustomTip=0x7f060009;
+        public static final int etTotalAmt=0x7f060001;
+        public static final int fifteenPercent=0x7f060006;
+        public static final int numPeopleLabel=0x7f06000a;
+        public static final int orLabel=0x7f060008;
+        public static final int rgTip=0x7f060004;
+        public static final int sbNumPeople=0x7f06000c;
+        public static final int tenPercent=0x7f060005;
+        public static final int tipLabel=0x7f060003;
+        public static final int tipTotalLabel=0x7f06000f;
+        public static final int totalLabel=0x7f060011;
+        public static final int tvNumPeople=0x7f06000b;
+        public static final int tvTotalAmount=0x7f060012;
+        public static final int tvTotalPerPerson=0x7f060013;
+        public static final int tvTotalPerPersonAmt=0x7f060014;
+        public static final int tvTotalTip=0x7f060010;
+        public static final int twentyPercent=0x7f060007;
+        public static final int venmo_wv=0x7f060015;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
