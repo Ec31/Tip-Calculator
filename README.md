@@ -1,8 +1,9 @@
 Tip-Calculator
 ==============
-This is an Android demo application for displaying the latest box office movies using the [RottenTomatoes API](http://www.rottentomatoes.com/). See the [RottenTomatoes Networking Tutorial](http://guides.thecodepath.com/android/RottenTomatoes-Networking-Tutorial) on our cliffnotes for a step-by-step tutorial.
 
-Time spent: 5 hours spent in total
+Tip Calculator utility app which allows a user to calculate the appropriate tip based on the total amount entered.
+
+Time spent: 6 hours spent in total
 
 Completed user stories:
 
@@ -11,16 +12,18 @@ Completed user stories:
  * [x] Required: User can select between tip amounts (i.e 10%, 15%, 20%)
  * [x] Required: Upon selecting tip amount, formatted tip value is displayed
  * [x] Optional: User changes the total amount and updated tip is reflected automatically
- * [x] Optional: User changes the total amount and updated tip is reflected automatically
- *  * [x] Optional: User changes the total amount and updated tip is reflected automatically
+ * [x] Optional: User can select custom tip percentage if desired
+ * [x] Optional: User can select how many ways to split the tip
+ * [x] Optional: Experiment with trying input widgets to replace the buttons and/or textviews
+ * [x] Optional: Improve the user interface and experience by using images and/or colors
+ 
 Notes:
+ * [x] Spent some time trying to get the $ to always be in front of the total amount.
+ 
 
-Spent some time making the UI work across multiple phone resolutions by playing around with the RelativeLayout.
 
 Walkthrough of all user stories:
 
 ![Video Walkthrough](TipCalc.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
-![Video Walkthrough](TipCalc.gif)
