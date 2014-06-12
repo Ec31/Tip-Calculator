@@ -18,8 +18,6 @@ Completed user stories:
  * [x] Optional: Experiment with trying input widgets to replace the buttons and/or textviews
  * [x] Optional: Improve the user interface and experience by using images and/or colors
  
-Notes:
- * [x] Spent some time trying to get the $ to always be in front of the total amount.
  
 
 
