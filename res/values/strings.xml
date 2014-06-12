@@ -3,5 +3,22 @@
 
     <string name="app_name">TipCalculator</string>
     <string name="hello_world">Hello world!</string>
+    <string name="settings_title">Settings</string>
+    <string name="tip_settings1">Tip Percentage #1</string>
+    <string name="tip_settings2">Tip Percentage #2</string>
+    <string name="tip_settings3">Tip Percentage #3</string>
+    <string name="bill_total">Bill Total</string>
+    <string name="tip_percentage">Tip Percentage</string>
+    <string name="num_people">Number of People</string>
+    <string name="custom_tip">custom tip</string>
+    <string name="tip_total_label">Tip:</string>
+    <string name="total_label">Total:</string>
+    <string name="total_per_person_label">Total per person:</string>
+    <string name="or">or</string>
+    <string name="10_percent">10%</string>
+    <string name="15_percent">15%</string>
+    <string name="20_percent">20%</string>
+    <string name="total_hint">$0</string>
+    <string name="one">1</string>
 
 </resources>

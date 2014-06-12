@@ -15,7 +15,7 @@
         android:layout_marginTop="18dp"
         android:background="#02bf02"
         android:padding="2dp"
-        android:text="Bill Total"
+        android:text="@string/bill_total"
         android:layout_marginLeft="10dp"
         android:textAllCaps="true"
         android:textSize="14sp" />
@@ -29,7 +29,7 @@
         android:background="#00000000"
         android:ems="10"
         android:gravity="center"
-        android:hint="$0"
+        android:hint="@string/total_hint"
         android:inputType="numberDecimal"
         android:maxLines="1"
         android:padding="10dp"
@@ -57,7 +57,7 @@
 	        android:layout_marginTop="18dp"
 	        android:background="#02bf02"
 	        android:padding="2dp"
-	        android:text="Tip Percentage"
+	        android:text="@string/tip_percentage"
 	        android:textAllCaps="true"
 	        android:textSize="14sp" />
 	
@@ -74,21 +74,21 @@
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:checked="true"
-	            android:text="10%"
+	            android:text="@string/10_percent"
 	            android:textSize="14sp" />
 	
 	        <RadioButton
 	            android:id="@+id/fifteenPercent"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="15%"
+	            android:text="@string/15_percent"
 	            android:textSize="14sp" />
 	
 	        <RadioButton
 	            android:id="@+id/twentyPercent"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="20%"
+	            android:text="@string/20_percent"
 	            android:textSize="14sp" />
 
 	    </RadioGroup>
@@ -102,7 +102,7 @@
 	        android:layout_marginRight="10dp"
 	        android:layout_toRightOf="@+id/rgTip"
 	        android:paddingBottom="5dp"
-	        android:text="or"
+	        android:text="@string/or"
 	        android:textAlignment="center" />
 	    
 	     <TextView
@@ -115,7 +115,7 @@
 	         android:layout_marginTop="21dp"
 	         android:background="#02bf02"
 	         android:padding="2dp"
-	         android:text="Number of People"
+	         android:text="@string/num_people"
 	         android:textAllCaps="true"
 	         android:textSize="14sp"/>
 
@@ -127,7 +127,7 @@
 	         android:layout_alignBottom="@+id/numPeopleLabel"
 	         android:layout_marginLeft="5dp"
 	         android:layout_toRightOf="@+id/numPeopleLabel"
-	         android:text="1"
+	         android:text="@string/one"
 	         android:textSize="14sp" />
 	
 	    <SeekBar
@@ -154,7 +154,7 @@
 	        android:layout_height="wrap_content"
 	        android:layout_above="@+id/etCustomTip"
 	        android:layout_alignLeft="@+id/etCustomTip"
-	        android:text="custom tip"
+	        android:text="@string/custom_tip"
 	        android:textAlignment="center"
 	        android:textColor="#02bf02"/>
 
@@ -174,7 +174,7 @@
 	        android:layout_height="wrap_content"
 	        android:layout_alignParentLeft="true"
 	        android:layout_alignParentTop="true"
-	        android:text="Tip:"
+	        android:text="@string/tip_total_label"
 	        android:textSize="14sp" 
 	        android:textAllCaps="true"
 	        android:background="#02bf02"
@@ -196,7 +196,7 @@
 	        android:layout_height="wrap_content"
 	        android:layout_alignParentLeft="true"
 	        android:layout_below="@+id/tvTotalTip"
-	        android:text="Total: "
+	        android:text="@string/total_label"
 	        android:textSize="14sp" 
 	        android:textAllCaps="true"
 	        android:background="#02bf02"
@@ -219,7 +219,7 @@
 	        android:layout_height="wrap_content"
 	        android:layout_alignParentLeft="true"
 	        android:layout_below="@+id/totalLabel"
-	        android:text="Total per person:"
+	        android:text="@string/total_per_person_label"
 	        android:textSize="14sp" 
 	        android:textAllCaps="true"
 	        android:background="#02bf02"
