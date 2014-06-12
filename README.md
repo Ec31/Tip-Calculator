@@ -18,7 +18,8 @@ Completed user stories:
  * [x] Optional: Experiment with trying input widgets to replace the buttons and/or textviews
  * [x] Optional: Improve the user interface and experience by using images and/or colors
  
- 
+Notes:
+I tried to add a button to charge people on Venmo and it put the total per person amount as the amount to charge. It was almost working but there were some issues that I didn't have time to try to fix.
 
 
 Walkthrough of all user stories:
