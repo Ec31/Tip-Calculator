@@ -35,7 +35,9 @@
         android:padding="10dp"
         android:textAlignment="center"
         android:textColor="#02bf02"
-        android:textSize="48sp" />
+        android:textSize="48sp" >
+ 	    <requestFocus />
+ 	 </EditText>
 
     <RelativeLayout
         android:id="@+id/container2"
@@ -144,7 +146,6 @@
 	        android:ems="10"
 	        android:inputType="numberDecimal" >
 
-	        <requestFocus />
 	    </EditText>
 
 	    <TextView
@@ -233,16 +234,5 @@
 	        android:layout_toRightOf="@+id/tvTotalPerPerson" 
 	        android:layout_marginLeft="10dp"/>
 	</RelativeLayout>
-
-<!-- 	<Button
-	    android:id="@+id/venmoButton"
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentLeft="true"
-	    android:layout_below="@+id/container3"
-	    android:textAlignment="center"
-	    android:layout_margin="15dp"
-	    android:background="#02bf02"
-	    android:text="Charge People on Venmo" /> -->
 
 </RelativeLayout>

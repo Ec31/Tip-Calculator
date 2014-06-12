@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+ 
+    <PreferenceCategory android:title="Default Tip Percentages" >
+        <EditTextPreference
+                android:title="Tip Percentage #1"
+                android:key="tip1" android:defaultValue="10"/>
+        <EditTextPreference
+	        android:title="Tip Percentage #2"
+	        android:key="tip2" android:defaultValue="15"/>
+		<EditTextPreference
+	        android:title="Tip Percentage #3"
+	        android:key="tip3" android:defaultValue="20"/>
+    </PreferenceCategory>
+ 
+</PreferenceScreen>
